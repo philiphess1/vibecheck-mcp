@@ -14,7 +14,7 @@
       "mcpServers": {
         "vibecheck": {
           "command": "npx",
-          "args": ["-y", "vibecheck-mcp"]
+          "args": ["-y", "vibecheck-audit-mcp"]
         }
       }
     }

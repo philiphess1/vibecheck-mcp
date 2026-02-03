@@ -1,5 +1,5 @@
 {
-  "name": "vibecheck-mcp",
+  "name": "vibecheck-audit-mcp",
   "version": "1.0.0",
   "description": "AI-powered security audit MCP server with real-time vulnerability data",
   "author": "Philip Hess",
@@ -11,7 +11,7 @@
   "type": "module",
   "main": "build/index.js",
   "bin": {
-    "vibecheck-mcp": "./build/index.js"
+    "vibecheck-audit-mcp": "./build/index.js"
   },
   "scripts": {
     "build": "tsc",

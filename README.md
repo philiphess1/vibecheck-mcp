@@ -27,7 +27,7 @@ Add to your Claude Desktop config (`~/.claude/claude_desktop_config.json`):
   "mcpServers": {
     "vibecheck": {
       "command": "npx",
-      "args": ["-y", "vibecheck-mcp"]
+      "args": ["-y", "vibecheck-audit-mcp"]
     }
   }
 }
