@@ -1,0 +1,12 @@
+{
+  "name": "vibecheck",
+  "description": "AI-powered security audit with real-time CWE data and npm audit",
+  "version": "1.0.0",
+  "author": {
+    "name": "Philip Hess"
+  },
+  "homepage": "https://github.com/philiphess1/vibecheck-mcp",
+  "repository": "https://github.com/philiphess1/vibecheck-mcp",
+  "license": "MIT",
+  "keywords": ["security", "audit", "vulnerability", "cwe", "owasp", "mcp"]
+}

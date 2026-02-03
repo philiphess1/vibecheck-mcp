@@ -1,0 +1,22 @@
+{
+  "name": "vibecheck",
+  "owner": {
+    "name": "Philip Hess"
+  },
+  "metadata": {
+    "description": "AI-powered security scanning for codebases"
+  },
+  "plugins": [
+    {
+      "name": "vibecheck",
+      "source": "./",
+      "description": "AI-powered security audit with real-time CWE data and npm audit",
+      "mcpServers": {
+        "vibecheck": {
+          "command": "npx",
+          "args": ["-y", "vibecheck-mcp"]
+        }
+      }
+    }
+  ]
+}

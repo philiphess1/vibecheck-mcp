@@ -11,31 +11,34 @@ AI-powered security audit tool for codebases. Analyzes code for vulnerabilities 
 
 ## Installation
 
+### Claude Code (Recommended)
+
 ```bash
-# Clone the repository
-git clone <repo-url>
-cd vibecheck-mcp
-
-# Install dependencies
-npm install
-
-# Build
-npm run build
+/plugin marketplace add philiphess1/vibecheck-mcp
+/plugin install vibecheck@vibecheck
 ```
 
-## Configuration
+### Manual Installation
 
-Add to your Claude Desktop configuration (`~/.claude/claude_desktop_config.json`):
+Add to your Claude Desktop config (`~/.claude/claude_desktop_config.json`):
 
 ```json
 {
   "mcpServers": {
     "vibecheck": {
-      "command": "node",
-      "args": ["/absolute/path/to/vibecheck-mcp/build/index.js"]
+      "command": "npx",
+      "args": ["-y", "vibecheck-mcp"]
     }
   }
 }
+```
+
+### From Source
+
+```bash
+git clone https://github.com/philiphess1/vibecheck-mcp.git
+cd vibecheck-mcp
+npm install && npm run build
 ```
 
 ## Tools
